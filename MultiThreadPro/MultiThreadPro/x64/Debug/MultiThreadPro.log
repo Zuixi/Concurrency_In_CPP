@@ -1,0 +1,4 @@
+﻿  MultiThreadPro.cpp
+D:\CodeRes\C++ Samples\MultiThreadPro\MultiThreadPro\MultiThreadPro.cpp(76,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\CodeRes\C++ Samples\MultiThreadPro\MultiThreadPro\MultiThreadPro.cpp(78,52): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  MultiThreadPro.vcxproj -> D:\CodeRes\C++ Samples\MultiThreadPro\x64\Debug\MultiThreadPro.exe
