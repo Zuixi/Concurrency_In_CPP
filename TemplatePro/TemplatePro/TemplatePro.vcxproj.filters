@@ -44,5 +44,14 @@
     <ClInclude Include="Concurrency\Include\2_1.h">
       <Filter>Concurrency\Include</Filter>
     </ClInclude>
+    <ClInclude Include="Concurrency\Include\3_2.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Concurrency\Include\3_3.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Concurrency\Include\Color.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
