@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+<<<<<<< HEAD
 Debug|x64|D:\CodeRes\C++ Samples\Concurrency_In_CPP\TemplatePro\|
+=======
+Debug|x64|D:\CodeRes\Concurrency_In_CPP\TemplatePro\|
+>>>>>>> 8cf8b10ee6009d77dcc4afb7af11f124daa1ad37

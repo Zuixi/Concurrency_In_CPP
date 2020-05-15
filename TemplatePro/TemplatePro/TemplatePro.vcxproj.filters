@@ -59,6 +59,7 @@
     <ClInclude Include="Concurrency\Include\2_1.h">
       <Filter>Concurrency\Include</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="TemplateCode\Include\stack.h">
       <Filter>TemplateCode\Include</Filter>
     </ClInclude>
@@ -67,6 +68,16 @@
     </ClInclude>
     <ClInclude Include="APITest\copyFile.h">
       <Filter>APITest</Filter>
+=======
+    <ClInclude Include="Concurrency\Include\3_2.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Concurrency\Include\3_3.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Concurrency\Include\Color.h">
+      <Filter>Concurrency\Include</Filter>
+>>>>>>> 8cf8b10ee6009d77dcc4afb7af11f124daa1ad37
     </ClInclude>
   </ItemGroup>
 </Project>

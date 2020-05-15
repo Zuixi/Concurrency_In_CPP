@@ -5,8 +5,12 @@
 #include "Include/templateFun.h"
 #include "Concurrency/Include/1_1.h"
 #include "Concurrency/Include/2_1.h"
+<<<<<<< HEAD
 #include "Concurrency/Include/3_1.h"
 #include "APITest/copyFile.h"
+=======
+#include "Concurrency/Include/3_2.h"
+>>>>>>> 8cf8b10ee6009d77dcc4afb7af11f124daa1ad37
 #include <thread>
 
 //std::thread::id master_thread;
@@ -31,6 +35,7 @@ int main()
 
     /*std::vector<std::thread> vect;
 
+<<<<<<< HEAD
     for (int i = 0; i < 1000; i++)
     {
         vect.push_back((std::thread(Share_Data::add_to_list, i)));
@@ -40,6 +45,11 @@ int main()
     {
         val.join();
     }
+=======
+    //CONCURRENCY_TWO::_2_3::f();
+    Shara_Data_With_Reference::foo();
+    
+>>>>>>> 8cf8b10ee6009d77dcc4afb7af11f124daa1ad37
     
     assert(Share_Data::isContained());
 

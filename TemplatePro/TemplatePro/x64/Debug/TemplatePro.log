@@ -1,2 +1,6 @@
 ﻿  TemplatePro.cpp
+<<<<<<< HEAD
   TemplatePro.vcxproj -> D:\CodeRes\C++ Samples\Concurrency_In_CPP\TemplatePro\x64\Debug\TemplatePro.exe
+=======
+  TemplatePro.vcxproj -> D:\CodeRes\Concurrency_In_CPP\TemplatePro\x64\Debug\TemplatePro.exe
+>>>>>>> 8cf8b10ee6009d77dcc4afb7af11f124daa1ad37
