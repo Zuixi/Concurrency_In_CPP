@@ -25,6 +25,18 @@
     <Filter Include="Concurrency\Src">
       <UniqueIdentifier>{9533fa44-c895-4964-907c-0935e8a9dd6f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TemplateCode">
+      <UniqueIdentifier>{e20c5e0b-1a54-4b07-b660-145393c80089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemplateCode\Include">
+      <UniqueIdentifier>{3a7b921c-7734-468c-b01f-15b9a82045f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemplateCode\Src">
+      <UniqueIdentifier>{2c20d31e-9d22-430b-8293-c7e97c9728a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APITest">
+      <UniqueIdentifier>{c4779a55-86de-4072-a4b6-25a64ac1badd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TemplatePro.cpp">
@@ -32,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Test\TestFun.cpp">
       <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateCode\Src\stack.cpp">
+      <Filter>TemplateCode\Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +58,15 @@
     </ClInclude>
     <ClInclude Include="Concurrency\Include\2_1.h">
       <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCode\Include\stack.h">
+      <Filter>TemplateCode\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCode\Src\3_1.h">
+      <Filter>Concurrency\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="APITest\copyFile.h">
+      <Filter>APITest</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

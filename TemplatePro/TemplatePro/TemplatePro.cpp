@@ -5,11 +5,14 @@
 #include "Include/templateFun.h"
 #include "Concurrency/Include/1_1.h"
 #include "Concurrency/Include/2_1.h"
+#include "Concurrency/Include/3_1.h"
+#include "APITest/copyFile.h"
 #include <thread>
 
 //std::thread::id master_thread;
 //
 //std::thread t0(ConcurrencyONE::_1_3::hello2, 2);
+
 
 int main()
 {
@@ -23,9 +26,27 @@ int main()
     // 线程已经结束，函数还在访问局部变量
     //CONCURRENCY_TWO::_1_1::oops();
     //CONCURRENCY_TWO::_2_2::f();
-
-    CONCURRENCY_TWO::_2_3::f();
     
+    //CONCURRENCY_TWO::_2_3::f();
+
+    /*std::vector<std::thread> vect;
+
+    for (int i = 0; i < 1000; i++)
+    {
+        vect.push_back((std::thread(Share_Data::add_to_list, i)));
+    }
+
+    for (auto& val : vect)
+    {
+        val.join();
+    }
+    
+    assert(Share_Data::isContained());
+
+    for (auto& val : Share_Data::some_list)
+        std::cout << val << "  ";*/
+
+    MyCopyFile::TestCopy();
     std::cout << "Hello World!\n";
     
 }
