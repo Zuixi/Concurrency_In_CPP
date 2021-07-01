@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include\\c++",
+                "C:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include\\c++\\x86_64-w64-mingw32",
+                "C:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include\\c++\\backward",
+                "C:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include",
+                "C:\\TDM-GCC-64\\include",
+                "C:\\TDM-GCC-64\\x86_64-w64-mingw32\\include",
+                "C:\\TDM-GCC-64\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include-fixed"
+            ]
+        }
+    ]
+}
