@@ -84,6 +84,36 @@ int triangleNumber(std::vector<int>& nums) {
 	return count;
 }
 
+std::vector<int> shuffle(std::vector<int>& nums, int n) {
+	std::vector<int> ans(n * 2);
+	
+	bool f = false;
+	int k = 0;
+	for (int i = 0, j = n; i < n; ) {
+		// 循环陷阱， f两个都会执行
+		// if (!f) {
+		// 	ans[k++] == (nums[i]);
+		// 	++i;
+		// 	f = true;
+		// }
+		// else {
+		// 	ans[k++] = (nums[j]);
+		// 	++j;
+		// 	f = false;
+		// }
+
+		// nums[i] nums[j] j = i + n
+		// 间隔插入一个元素i ,j i,j
+		ans[k++] = nums[i];
+		std::cout << "  " << nums[i];
+		ans[k++] = nums[i + n];
+		std::cout << "  " << nums[i + n];
+		++i;
+	}
+	
+	return ans;
+}
+
 int main() {
 	std::vector<int> nums = {2,3,2,4};
 
@@ -91,7 +121,10 @@ int main() {
 	// triangleNumber1(nums);
 
 	// 先对数组进行排序
-	std::sort(nums.begin(), nums.end());
-	triangleNumber(nums);
+	// std::sort(nums.begin(), nums.end());
+	// triangleNumber(nums);
+
+	std::vector<int> n= {2,5,1,3,4,7};
+	shuffle(n, 3);
 	return 0;
 }
